@@ -33,33 +33,17 @@ async function makeRequest() {
     try{
         const Data = await fetch(url);
         const mainData = await Data.json();
-        const result = mainData.message.body.track_list;
+        const res = mainData;
 
-        console.log(result);
+        console.log(res);
         
        
        if (result.length === 0) {
            Display.innerHTML = "Can't Find Song"
+           
        } else {
-           result.forEach((single) => {
-            //    console.log(single.track.track_name);
-            //    console.log(single.track.artist_name);
-            //    console.log(single.track.updated_time);
-            //    console.log(single.track.track_rating);
-              
-               const {track_name, artist_name, updated_time} = single.track;
-
-               console.log(track_name);
-
-               const newElements = document.getElementById("Display");
-               const newElements1 = document.getElementById("Display1");
-               const newElements2 = document.getElementById("Display2");
-
-               newElements.innerHTML = track_name
-               newElements1.innerHTML = artist_name
-               newElements2.innerHTML = updated_time
-
-
+           res.forEach((single) =>{
+               console.log(single);
            })
            
        }

@@ -6,7 +6,7 @@ body{
 }
 
 .button{
-   margin: 0 auto;
+   margin-left:600px;
     background-color: rgba(128, 128, 128, 0.507);
     border: grey;
     color: honeydew;
@@ -17,7 +17,8 @@ input{
 }
 
 .fix{
-  margin: 0 auto;
-  padding: 100px;
- 
+    color: whitesmoke;
+    font-weight: 700;
+    font-size:30px;
+    text-align: center;
 }
