@@ -17,8 +17,50 @@ input{
 }
 
 .fix{
-    color: whitesmoke;
-    font-weight: 700;
-    font-size:30px;
-    text-align: center;
+    color: darkred;
+    font-weight: 600;
+    font-size:20px;
+    text-align: left;
+    line-height: 20px;
+    text-overflow: inherit;
 }
+
+.dis{
+    background-color: rgba(255, 255, 255, 0.993);
+    background-size: cover;
+   
+}
+.dis2{
+    background-image:url(./assets/Images/Phonograph\ record.jpg);
+    background-size: cover;
+   
+}
+
+@media screen and (max-width:500px){
+    body{
+        width:100%;
+        background-image: url(./assets/Images/bg-Image.jpg);
+        background-size: cover;
+        background-repeat: inherit;
+    }
+    input-group{
+        width:200px
+       }
+       card{
+           display: none;
+       }
+       button{
+          margin: 0,auto;
+          
+       }
+       p{
+           font-size: 4px;
+          
+           text-align: left;
+           font-weight: 200;
+           text-overflow: inherit;
+       }
+   
+   
+    }
+    
