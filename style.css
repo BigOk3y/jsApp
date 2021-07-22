@@ -2,65 +2,161 @@ body{
     margin: 0;
     padding: 0;
     background-image: url(./assets/Images/bg-Image.jpg);
-    background-size: cover;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:1031px
 }
 
-.button{
-   margin-left:600px;
-    background-color: rgba(128, 128, 128, 0.507);
-    border: grey;
-    color: honeydew;
+#btn1{
+    background-color:darkred;
+    border: 2px solid rgba(128, 128, 128, 0);
 }
 
-input{
-    width: 400px;
-}
-
-.fix{
+#fixxer > div > div:nth-child(1) > div > div{
+    
     color: darkred;
     font-weight: 600;
     font-size:13px;
     text-align: left;
     line-height: 10px;
-    text-overflow: inherit;
+    overflow:hidden;
 }
 
-.dis{
-    background-color: rgba(255, 255, 255, 0.993);
-    background-size: cover;
-   
+#fixxer > div > div:nth-child(2) > div > div{
+    color: darkred;
+    font-weight: 600;
+    font-size:13px;
+    text-align: left;
+    line-height: 10px;
+    overflow:hidden;
 }
-.dis2{
-    background-image:url(./assets/Images/Phonograph\ record.jpg);
-    background-size: cover;
-   
+
+#fixxer > div > div:nth-child(3) > div > div{
+    color: darkred;
+    font-weight: 600;
+    font-size:13px;
+    text-align: left;
+    line-height: 10px;
+    overflow:hidden;
 }
+
+#fixxer2 > div > div:nth-child(1) > div > div{
+    color: darkred;
+    font-weight: 600;
+    font-size:13px;
+    text-align: left;
+    line-height: 10px;
+    overflow:hidden;
+}
+
+
+#fixxer2 > div > div:nth-child(2) > div > div{
+    color: darkred;
+    font-weight: 600;
+    font-size:13px;
+    text-align: left;
+    line-height: 10px;
+    overflow:hidden;
+}
+
+
+#fixxer2 > div > div:nth-child(3) > div > div{
+    color: darkred;
+    font-weight: 600;
+    font-size:13px;
+    text-align: left;
+    line-height: 10px;
+    overflow:hidden;
+}
+
+header h1{
+    font-family:  'Dancing Script', cursive;
+    font-weight: 700;
+    color: darkred;
+    text-align:center;
+    font-size:90px;
+}
+
+
+ a{
+    font-family:  'Dancing Script', cursive;
+    font-weight: 700;
+    color: darkred;
+    font-size:25px;
+}
+
+
+
 
 @media screen and (max-width:500px){
-    body{
-        width:100%;
-        background-image: url(./assets/Images/bg-Image.jpg);
-        background-size: cover;
-        background-repeat: inherit;
-    }
-    input-group{
-        width:200px
-       }
-       card{
-           display: none;
-       }
-       button{
-          margin: 0,auto;
-          
-       }
-       p{
-           font-size: 4px;
-          
-           text-align: left;
-           font-weight: 200;
-           text-overflow: inherit;
-       }
    
-   
-    }
+    header h1{
+        font-size: 30px;
+        }
     
+     #fixxer > div > div:nth-child(1) > div > div{
+       
+        color: darkred;
+        font-weight: 400;
+        font-size:7px;
+        text-align: left;
+        line-height: 3px;
+        
+    }
+    #fixxer > div > div:nth-child(2) > div > div{
+       
+        color: darkred;
+        font-weight: 400;
+        font-size:7px;
+        text-align: left;
+        line-height: 3px;
+        
+    }
+    #fixxer > div > div:nth-child(3) > div > div{
+       
+        color: darkred;
+        font-weight: 400;
+        font-size:7px;
+        text-align: left;
+        line-height: 3px;
+        
+    }
+    #fixxer2 > div > div:nth-child(1) > div > div{
+       
+        color: darkred;
+        font-weight: 400;
+        font-size:7px;
+        text-align: left;
+        line-height: 3px;
+        
+    }
+    #fixxer2 > div > div:nth-child(2) > div > div{
+       
+        color: darkred;
+        font-weight: 400;
+        font-size:7px;
+        text-align: left;
+        line-height: 3px;
+        
+    }
+    #fixxer2 > div > div:nth-child(3) > div > div{
+       
+        color: darkred;
+        font-weight: 400;
+        font-size:7px;
+        text-align: left;
+        line-height: 3px;
+        
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    body{
+        background-color: rgba(158, 124, 198, 0.835);
+        background-size: cover;
+        height: 1031px;
+        width:100%;
+      
+    }
+}

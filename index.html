@@ -16,11 +16,35 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 
-    <title>Dash</title>
+    <title>Lyricall.y</title>
   </head>
   <body>
-    <header class="mt-1">
-      <h1 style="font-family: 'Dancing Script', cursive; font-weight: 700; text-align:center; color: darkred; font-size:70px;" >LYRICALL.y</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Lyricall.y</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">lyrics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <header class="p-2 m-2">
+      <h1>LYRICALL.y</h1>
       <div>
         <i class="bi bi-music-player-fill"></i>
       </div>
@@ -29,41 +53,48 @@
     
 
 
-
+<!--  -->
 
    <section>
         
    <div class="container" >
-    <div class="input-group mb-3 m-5 p-5">
+   <div class="row  justify-content-center mx-auto ">
+     <div class=" col col-sm">
+      <div class=" input-group mb-3  ">
         <input id="song" type="text" class="form-control" placeholder="Search For A Song"  aria-describedby="basic-addon2">
-      </div >
-      
-        <button id="btn1" type="button" class="btn btn-secondary  btn-lg button ">Search</button>
-     
+      </div >  
+   </div>
+   <div class="row justify-content-center">
+    
+    <div class="col-1 col-sm mx-auto p-3">
+      <button id="btn1" type="button" class=" btn btn-secondary  btn-lg button1">Search</button>
+    </div>
    
+   </div>
+     
    </section>
+
+   <p id= "Display" class="card-text"></p>
 
    <section id="fixxer" class=" container-fluid my-5 fix animate__animated animate__fadeInDown">
     <div class="row mx-5">
-      <div class="col-4">
+      <div class="col-md-4">
        <div class=" card  border-0 w-75">
-        <img src= "assets/Images/phone.jpg"  class="card-img dis " alt="...">
-         <div class="card-img-overlay">
-           <h5 class="card-title"></h5>
-           <p id= "Display" class="card-text"></p>
-           <p>SONG TITLE</p>
-           <div id="Display1" class="card-text"></div><br>
-           <p>ARTIST</p>
-           <div id="Display2" class="card-text"></div><br>
-           <p>RATTING</p>
-           <div id="Display3" class="card-text"></div>
+        <img src= "assets/Images/phone.jpg"  class="card-img  " alt="...">
+         <div class="card-img-overlay sm text-wrap " >
+           <p class="p-1 mb-1 text-wrap">SONG TITLE</p>
+           <div id="Display1" class=" card-text text-wrap p-1" style="width: 8rem;"></div>
+           <p class="p-1 mb-1 text-wrap">ARTIST</p>
+           <div id="Display2" class="card-text text-wrap p-1" style="width: 8rem;"></div>
+           <p class="p-1 mb-1 text-wrap">RATING</p>
+           <div id="Display3" class="card-text text-wrap p-1"  style="width: 8rem;"></div>
          </div>
        </div>
       </div>
-      <div class="col-4">
+      <div class="col-md-4">
        <div class=" card  border-0 bg-dark w-75">
          <img src= "assets/Images/phone.jpg"  class="card-img " alt="...">
-         <div class="card-img-overlay ">
+         <div class="card-img-overlay T ">
            <h5 class="card-title"></h5>
            <p id= "Display" class="card-text"></p>
            <p>SONG TITLE</p>
@@ -75,10 +106,10 @@
          </div>
        </div>
       </div>
-      <div class="col-4">
+      <div class="col-md-4">
        <div class=" card  border-0 bg-dark w-75">
          <img src= "assets/Images/phone.jpg"  class="card-img " alt="...">
-         <div class="card-img-overlay  ">
+         <div class="card-img-overlay  T">
            <h5 class="card-title"></h5>
            <p id= "Display" class="card-text"></p>
            <p>SONG TITLE</p>
@@ -94,12 +125,12 @@
     </section>
 
    <section id="fixxer2" class=" fixx container-fluid my-5  animate__animated animate__fadeInDown fix mb-0">
-     
+
     <div class="row mx-5">
-      <div class="col-4">
+      <div class="col-md-4">
        <div class=" card  border-0 bg-dark  w-75">
          <img src= "assets/Images/phone.jpg"  class="card-img " alt="...">
-         <div class="card-img-overlay">
+         <div class="card-img-overlay T">
            <h5 class="card-title"></h5>
            <p id= "Display" class="card-text"></p>
            <p>SONG TITLE</p>
@@ -111,10 +142,10 @@
          </div>
        </div>
       </div>
-      <div class="col-4">
+      <div class="col-md-4">
        <div class=" card  border-0 bg-dark w-75">
          <img src= "assets/Images/phone.jpg"  class="card-img " alt="...">
-         <div class="card-img-overlay">
+         <div class="card-img-overlay T">
            <h5 class="card-title"></h5>
            <p id= "Display" class="card-text"></p>
            <p>SONG TITLE</p>
@@ -126,10 +157,10 @@
          </div>
        </div>
       </div>
-      <div class="col-4">
+      <div class="col-md-4">
        <div class=" card  border-0 bg-dark w-75">
          <img src= "assets/Images/phone.jpg"  class="card-img " alt="...">
-         <div class="card-img-overlay">
+         <div class="card-img-overlay T">
            <h5 class="card-title"></h5>
            <p id= "Display" class="card-text"></p>
            <p>SONG TITLE</p>
