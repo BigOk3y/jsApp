@@ -4,7 +4,7 @@ body{
     background-image: url(./assets/Images/bg-Image.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    height:1031px
+    height:1033px
 }
 
 #btn1{
@@ -163,7 +163,7 @@ header h1{
     body{
         background-color: rgba(158, 124, 198, 0.835);
         background-size: cover;
-        height: 1031px;
+        height: 1033px;
         width:100%;
       
     }
